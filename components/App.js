@@ -53,8 +53,8 @@ export default function Home() {
       </ParallaxLayer>
 
       <ParallaxLayer
-        offset={size.x >= 1024 ? 9.7 : 8}
-        factor={size.x >= 1024 ? 1 : 0.4}
+        offset={size.x >= 1024 ? 9.7 : 8.3}
+        factor={size.x >= 1024 ? 1 : 0.5}
       >
         <Contacts size={size.x} />
       </ParallaxLayer>
